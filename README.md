@@ -7,3 +7,6 @@ kubectl create secret docker-registry github-container-registry \
   --docker-username=pguleria52-devops \
   --docker-password=YOUR_GITHUB_TOKEN \
   --docker-email=YOUR_EMAIL
+
+  ########## Decoding argoCD initial password
+  echo initial_pasword | base64 --decode
